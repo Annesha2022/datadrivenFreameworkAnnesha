@@ -27,6 +27,7 @@ public class baseclass {
 	public static ExtentReports reo=ExtentManager.getInstance();
 	public static ExtentTest test;
 	//public FileInputStream fin1;
+//changes after cloning
 	@BeforeSuite
 	public void initializeDriver() {
 		if(driver==null) {
